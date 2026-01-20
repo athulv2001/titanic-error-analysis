@@ -21,3 +21,8 @@ Key patterns and insights from the analysis will be summarized here.
 - False negatives are particularly important in this problem because predicting non-survival for passengers who actually survived represents a critical failure.
 - Passengers from third class may experience a higher rate of false negatives due to historical and social priorities present in the data.
 - Such patterns suggest that the model may inherit historical bias rather than learning purely objective survival factors.
+
+## Limitations
+
+- The dataset reflects historical and social inequalities, which may influence model predictions and lead to biased error patterns.
+- Relying solely on accuracy can be misleading, as it does not capture how errors are distributed across different passenger groups.

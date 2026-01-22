@@ -17,3 +17,10 @@ A simple classification model is trained to predict survival outcomes. Model per
 
 ## Key Insights
 This section will summarize the main findings from the error analysis, including observed bias patterns and limitations of the model.
+
+## Group-Level Analysis
+
+-The prediction errors are not evenly distributed across passenger groups. Gender and passenger class strongly influence model behavior.
+-Female passengers tend to have fewer false negatives, as their higher survival rates are well represented in the data. In contrast, third-class passengers may experience a higher number of false negatives, where survival is underestimated by the model.
+-These patterns suggest that the model relies heavily on historical survival trends, which can result in biased predictions for underrepresented or lower-priority groups.
+

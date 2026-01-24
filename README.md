@@ -16,7 +16,11 @@ The primary objective of this project is to perform error analysis and identify 
 A simple classification model is trained to predict survival outcomes. Model performance is evaluated using a confusion matrix, with particular attention to false positives and false negatives. Error patterns are analyzed across passenger groups such as gender and ticket class.
 
 ## Key Insights
-This section will summarize the main findings from the error analysis, including observed bias patterns and limitations of the model.
+- False negatives are more critical than false positives due to their real-world impact.
+- Survival prediction errors are unevenly distributed across passenger classes.
+- Third-class passengers are more likely to experience false negatives.
+- These patterns suggest the model may reflect historical and social bias present in the data.
+
 
 ## Group-Level Analysis
 
